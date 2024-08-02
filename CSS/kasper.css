@@ -28,6 +28,30 @@
 /* End Variables */
 
 /* Start Global Rules */
+
+
+.gotopbtn {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background-color: var(--secondary-color);
+  bottom: 1vh;
+  right: 1vw;
+  text-decoration: none;
+  text-align: center;
+  z-index: 100;
+  line-height: 32px;
+  color: var(--main-color);
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.gotopbtn:hover {
+  background-color: transparent;
+}
+
+
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
